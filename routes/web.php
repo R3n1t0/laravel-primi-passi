@@ -19,7 +19,13 @@ Route::get('/', function () {
 
         "filosofi_presocratici" => [ "Talete", "Anassimandro", "Anassimene", "Parmenide", "Eraclito", "Pitagora"],
 
-        "filosofi_classici" => ["Socrate", "Platone", "Aristotele"]
+        "filosofi_classici" => ["Socrate", "Platone", "Aristotele"],
+
+        "filosofi_patristici" => ["Sant’Ambrogio", "Sant’Agostino"],
+
+        "filosofi_umanistici" => ["Angelo Poliziano", "Erasmo da Rotterdam", "Niccolò Cusano"],
+
+        "filosofi_illuministi" => ["Montesquieu", "Voltaire", "Rousseau", "Thomas Reid", "Kant"]
 
     ];
 
