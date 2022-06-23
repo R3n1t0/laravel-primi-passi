@@ -30,4 +30,22 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name("home");
+
+
+Route::get("/questions", function (){
+
+    $data = [];
+
+    return view("questions", $data);
+
+})->name("questions");
+
+
+Route::get("/aboutus", function (){
+
+    $data = [];
+
+    return view("aboutus", $data);
+
+})->name("aboutus");
